@@ -2,7 +2,7 @@ import styled from "styled-components";
 import ExperienceGroup from "../components/ExperienceGroup";
 import SkillGroup from "../components/SkillGroup";
 
-const StyledAbout = styled.div`
+const StyledMain = styled.main`
   flex-grow: 1;
 
   h1 {
@@ -27,13 +27,13 @@ const Group = styled.div`
 
 const About = () => {
   return (
-    <StyledAbout>
+    <StyledMain>
       <h1>About</h1>
       <Group>
         <ExperienceGroup />
         <SkillGroup />
       </Group>
-    </StyledAbout>
+    </StyledMain>
   );
 }
 

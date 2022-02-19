@@ -2,8 +2,8 @@ import styled from "styled-components";
 import ProjectItem from "../components/ProjectItem";
 import projectData from "../data/project";
 
-const StyledProject = styled.div`
-  margin-bottom: 28px;
+const StyledMain = styled.main`
+  flex-grow: 1;
 
   h1 {
     margin-bottom: 20px;
@@ -39,10 +39,10 @@ const projectItem = projectData.map((project) => {
 
 const Project = () => {
   return (
-    <StyledProject>
+    <StyledMain>
       <h1>Project</h1>
       <StyledGroup>{projectItem}</StyledGroup>
-    </StyledProject>
+    </StyledMain>
   );
 }
 
