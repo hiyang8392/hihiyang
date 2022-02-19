@@ -16,6 +16,13 @@ const StyledMain = styled.main`
   h3 {
     margin: 5px 5px 5px 0;
   }
+
+  @media (max-width: 800px) {
+    h1,
+    h2 {
+      margin-bottom: 5px;
+    }
+  }
 `;
 
 const StyledGroup = styled.div`

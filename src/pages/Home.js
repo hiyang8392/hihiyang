@@ -29,13 +29,26 @@ const StyledMain = styled(Main)`
 
   @media (max-width: 800px) {
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+
+    h2 {
+      font-size: 36px;
+    }
 
     .profile,
     .avatar {
       width: 100%;
       text-align: center;
+
+      img {
+        width: 250px;
+        height: 250px;
+      }
+
+      p {
+        font-size: 26px;
+      }
     }
   }
 `;

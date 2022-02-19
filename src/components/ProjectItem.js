@@ -94,7 +94,9 @@ const StyledProjectItem = styled.div`
   @media (max-width: 800px) {
     flex-direction: column;
     align-items: center;
+    padding: 0;
     margin-bottom: 20px;
+    border: 0;
 
     .info {
       width: 100%;
