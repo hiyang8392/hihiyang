@@ -90,6 +90,25 @@ const StyledProjectItem = styled.div`
       margin-left: 10px;
     }
   }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .info {
+      width: 100%;
+    }
+
+  .image {
+    img {
+      margin: 0;
+      border-radius: 10px;
+      width: 318px;
+      height: 180px;
+    }
+  }
+  }
 `;
 
 const ProjectItem = (props) => {

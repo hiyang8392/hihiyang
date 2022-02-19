@@ -26,6 +26,18 @@ const StyledMain = styled(Main)`
       height: 300px;
     }
   }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .profile,
+    .avatar {
+      width: 100%;
+      text-align: center;
+    }
+  }
 `;
 
 const Home = () => {

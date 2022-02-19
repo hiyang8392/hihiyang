@@ -23,6 +23,10 @@ const Group = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 `;
 
 const About = () => {

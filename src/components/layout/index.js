@@ -11,6 +11,13 @@ const LayoutCard = styled(Card)`
   max-width: 1200px;
   min-height: 80vh;
   background-color: #fff;
+
+  @media (max-width: 800px) {
+    padding: 30px 20px;
+    margin: 5vh auto;
+    width: 100%;
+    min-height: 90vh;
+  }
 `;
 
 const Layout = (props) => {

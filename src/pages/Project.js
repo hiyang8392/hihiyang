@@ -21,6 +21,11 @@ const StyledMain = styled.main`
 const StyledGroup = styled.div`
   height: 375px;
   overflow-y: scroll;
+
+  @media (max-width: 800px) {
+    overflow: initial;
+    height: 100%;
+  }
 `;
 
 const projectItem = projectData.map((project) => {
