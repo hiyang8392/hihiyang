@@ -19,7 +19,7 @@ const skills = [
         title: 'Bootstrap',
       },
       {
-        image: 'javaScript',
+        image: 'javascript',
         title: 'JavaScript',
       },
       {
