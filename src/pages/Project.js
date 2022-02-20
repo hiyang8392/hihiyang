@@ -18,7 +18,6 @@ const StyledMain = styled.main`
   }
 
   @media (max-width: 800px) {
-    h1,
     h2 {
       margin-bottom: 5px;
     }

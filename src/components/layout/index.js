@@ -13,7 +13,7 @@ const LayoutCard = styled(Card)`
   background-color: #fff;
 
   @media (max-width: 800px) {
-    padding: 30px 20px;
+    padding: 30px 24px;
     margin: 5vh auto;
     width: 100%;
     min-height: 90vh;
