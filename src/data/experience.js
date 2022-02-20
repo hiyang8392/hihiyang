@@ -1,7 +1,7 @@
 const experience = [
   {
     image: 'ocard',
-    title: '軟體工程師',
+    title: '後端工程師',
     company: '奧理科技股份有限公司',
   },
   {

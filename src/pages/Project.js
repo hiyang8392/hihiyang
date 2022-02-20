@@ -26,12 +26,12 @@ const StyledMain = styled.main`
 `;
 
 const StyledGroup = styled.div`
-  height: 375px;
+  height: 55vh;
   overflow-y: scroll;
 
   @media (max-width: 800px) {
-    overflow: initial;
     height: 100%;
+    overflow: initial;
   }
 `;
 

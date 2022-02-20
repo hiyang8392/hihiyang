@@ -30,9 +30,13 @@ const Group = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
+  height: 55vh;
+  overflow-y: scroll;
 
   @media (max-width: 800px) {
     flex-direction: column;
+    height: 100%;
+    overflow: initial;
   }
 `;
 

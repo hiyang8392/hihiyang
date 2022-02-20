@@ -4,9 +4,7 @@ import styled from "styled-components";
 const Header = styled.header`
   ul {
     display: flex;
-    display: -webkit-flex;
-    justify-content: end;
-    -webkit-justify-content: end;
+    justify-content: flex-end;
 
     li {
       margin-left: 30px;

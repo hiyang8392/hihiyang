@@ -84,14 +84,14 @@ const skills = [
         image: 'firebase',
         title: 'Firebase',
       },
-      // {
-      //   image: 'trello',
-      //   title: 'Trello',
-      // },
-      // {
-      //   image: 'asana',
-      //   title: 'Asana',
-      // },
+      {
+        image: 'trello',
+        title: 'Trello',
+      },
+      {
+        image: 'asana',
+        title: 'Asana',
+      },
     ],
   },
 ];
