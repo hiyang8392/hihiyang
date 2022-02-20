@@ -19,6 +19,8 @@ const StyledMain = styled.main`
   }
 
   @media (max-width: 800px) {
+    margin: 10px 0;
+
     h2 {
       margin-bottom: 5px;
     }
