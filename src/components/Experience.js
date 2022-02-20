@@ -5,10 +5,6 @@ const StyledExperience = styled.div`
   align-items: center;
   margin-bottom: 10px;
 
-  :hover {
-    transform: scale(1.03);
-  }
-
   .image {
     margin-right: 10px;
 

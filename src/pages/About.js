@@ -33,6 +33,12 @@ const Group = styled.div`
   flex-wrap: nowrap;
   height: 55vh;
   overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   @media (max-width: 800px) {
     flex-direction: column;

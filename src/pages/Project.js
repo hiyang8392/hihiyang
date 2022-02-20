@@ -29,6 +29,12 @@ const StyledMain = styled.main`
 const StyledGroup = styled.div`
   height: 55vh;
   overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   @media (max-width: 800px) {
     height: 100%;
